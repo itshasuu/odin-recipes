@@ -37,29 +37,12 @@ p {
     margin-right: auto;
 }
 
+
+
 p {
     margin-bottom: 35px;
 }
-.homepagelist {
-    display: inline-flex;
-    padding: 0px;
-    width: 508px;
-    height: auto;
-    
-}
 
-body center {
-    width: 508px;
-    height: auto;
-}
-
-#one,
-#two,
-#three {
-    display: inline-block;
-    border: 5px;
-    margin: 15px;
-}
 
 h3 {
     display: flex;
@@ -130,4 +113,29 @@ h3,
 #single-list li {
     width: max-content;
     margin-bottom: 2%;
+}
+
+.image {
+    display: grid;
+    height: auto;
+    width: 30%;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image {
+    width: 100%;
+    list-style: none;
+
+}
+
+.homepagelist {
+    display: flex;
+    width: 100%;
+}
+
+.homepagelist ul {
+    width: 33%;
+    height: auto;
 }
