@@ -1,13 +1,130 @@
-h1 {
-    color: red;
-    font-size: 50px;
+* {
+    background-color: #262626;
+    padding: 0;
+    margin: 0;
+    color: white;
+    box-sizing: border-box;
 }
 
 body {
+    width: 100%;
+    height: 100%;
+    margin: 30px;
     font-family: sans-serif;
 }
 
-* {
-    background-color: #000;
-    color: white;
+h1,
+h1 center {
+    color: yellow;
+    font-size: 50px;
+    height: auto;
+    width: 100%;
+    display: grid;
+    text-align: center;
+    margin-bottom: 25px;
 }
+
+#image,
+p {
+    display: block;
+    height: auto;
+    width: 100%;
+    max-height: 35%;
+    max-width: 525px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    margin-bottom: 35px;
+}
+.homepagelist {
+    display: inline-flex;
+    padding: 0px;
+    width: 508px;
+    height: auto;
+    
+}
+
+body center {
+    width: 508px;
+    height: auto;
+}
+
+#one,
+#two,
+#three {
+    display: inline-block;
+    border: 5px;
+    margin: 15px;
+}
+
+h3 {
+    display: flex;
+    font-size: 38px;
+    width: max-content;
+    margin-bottom: 4%;
+    color: yellow;
+}
+
+#list-columns,
+#title-columns {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3%;
+    gap: 1rem;
+ /*   width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+*/
+}
+
+
+.ingredients {
+/*    display: flow-root; 
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: 3%;
+    width: 33%;
+    margin-right: 0;
+    min-width: 200px; */
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.ingredients li {
+    margin-bottom: 4%;
+    padding-inline-end: 30px;
+/*    margin-inline-start: 30px; */
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+    width: max-content;
+    margin-bottom: 15px;
+/*    margin-inline-start: 3%;
+    min-width: 200px; */
+}
+
+.steps {
+    display: inline-flex;
+    width: 99%;
+    margin: 3%;
+    margin-top: 0;
+}
+
+.steps li {
+    display: inline-flexbox;
+    margin-bottom: 3%;
+    padding-right: 9%;
+}
+
+h3,
+.ingredients li {
+/*    margin: 6%; */
+}
+
